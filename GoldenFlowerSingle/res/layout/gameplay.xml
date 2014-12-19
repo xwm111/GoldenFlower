@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="24.84" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/zhangfei" />
+
+        <ImageView
+            android:id="@+id/imageView_computer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="56dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:src="@drawable/pukerback" />
+
+        <ImageView
+            android:id="@+id/imageView_computer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="52dp"
+            android:layout_toRightOf="@+id/imageView_computer1"
+            android:src="@drawable/pukerback" />
+
+        <ImageView
+            android:id="@+id/imageView_computer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="42dp"
+            android:layout_toRightOf="@+id/imageView_computer2"
+            android:src="@drawable/pukerback" />
+
+        <TextView
+            android:id="@+id/zhangfeimoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="9555" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="26dp"
+        android:layout_weight="24.84" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:text="目前总金额" />
+
+        <TextView
+            android:id="@+id/totalMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_marginLeft="104dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="10" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="24.84" >
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="44dp"
+            android:src="@drawable/zhangfei" />
+
+        <ImageView
+            android:id="@+id/imageView_user3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="42dp"
+            android:src="@drawable/pukerback" />
+
+        <ImageView
+            android:id="@+id/imageView_user2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/imageView_user3"
+            android:src="@drawable/pukerback" />
+
+        <ImageView
+            android:id="@+id/imageView_user1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="48dp"
+            android:layout_toLeftOf="@+id/imageView_user2"
+            android:src="@drawable/pukerback" />
+
+        <TextView
+            android:id="@+id/usermoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="29dp"
+            android:layout_toRightOf="@+id/ImageView04"
+            android:text="9555" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="24.84"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_seecard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="看牌" />
+
+        <Button
+            android:id="@+id/button_opencard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开牌" />
+
+        <Button
+            android:id="@+id/button_bethalf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="闷半手" />
+
+        <Button
+            android:id="@+id/button_betall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="闷一手" />
+
+        <Button
+            android:id="@+id/button_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跟牌" />
+        
+        <Button
+            android:id="@+id/button_giveup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="放弃" />
+
+        <Button
+            android:id="@+id/button_newgame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="再来一局" />
+
+    </LinearLayout>
+
+</LinearLayout>

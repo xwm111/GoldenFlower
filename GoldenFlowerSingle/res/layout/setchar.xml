@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="请输入您的大名:    " />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageView_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/mana" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="20dp"
+            android:text="选择您的头像:  " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent" android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView_mana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="70dp"
+            android:src="@drawable/mana_selector" />
+
+        <ImageView
+            android:id="@+id/imageView_manb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:src="@drawable/manb_selector" />
+
+        <ImageView
+            android:id="@+id/imageView_womana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:src="@drawable/womana_selector" />
+
+        <ImageView
+            android:id="@+id/imageView_womanb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            android:src="@drawable/womanb_selector" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="开始游戏" />
+
+</LinearLayout>

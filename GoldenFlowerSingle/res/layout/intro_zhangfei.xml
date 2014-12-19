@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/button_gotogame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="确认开始游戏" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/zhangfei" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="张飞，在三国将领中，张飞以勇猛雄壮著称，敌人对他闻风丧胆。《三国志》记载张飞曾率20骑兵吓退曹军。《三国志》称赞张飞“为万人敌”“为世虎臣”“有国士之风”“爱敬君子”。小说《三国演义》也描述张飞“豹头环眼，燕颔虎须，声若巨雷，势如奔马”。 
+
+张飞性格缺点是脾气暴躁，“不恤小人”“暴而无恩”。正史《三国志》和小说《三国演义》均曾记载刘备批评张飞“卿刑杀既过差，又日鞭挝健儿，而令在左右，此取祸之道也”。果然张飞就是死在任职其“左右”的部下之手。 "
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_quit"
+            android:layout_alignLeft="@+id/imageView1"
+            android:text="金花性格:          凶猛无脑，一蒙到底" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_gotogame"
+            android:layout_toLeftOf="@+id/button_gotogame"
+            android:text="基础战力（底钱）        5          战力总值（金钱总数）： 1000" />
+
+    </RelativeLayout>
+
+</LinearLayout>
